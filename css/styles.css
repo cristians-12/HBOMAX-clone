@@ -51,6 +51,7 @@ button{
     padding: 10px 15px;
     color: white;
     font-weight: bolder;
+    transition: all 0.3s ease-in-out;
 }
 .menu button:hover{
     background-color: white;
@@ -90,7 +91,7 @@ main .btn2{
     font-weight: bolder;
     position: relative;
     overflow: hidden;
-    
+    transition: all 0.3s ease-in-out;
 }
 .row{
     width:100%;
