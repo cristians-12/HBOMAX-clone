@@ -56,7 +56,7 @@ button{
 .menu button:hover{
     background-color: white;
     color: black;
-    transition: background-color 0.5s ease 100ms;
+/*     transition: background-color 0.5s ease 100ms; */
 }
 
 main h1{
