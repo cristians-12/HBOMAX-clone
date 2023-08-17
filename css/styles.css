@@ -29,6 +29,12 @@ video{
 button{
     border:none;
 }
+.menu .botonc{
+    width: 11%;
+}
+.menu .col-1{
+    padding-left: 7%;
+}
 
 
 .menu{
