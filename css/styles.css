@@ -1,161 +1,158 @@
-body{
-    margin: 0;
-    width: 100%;
-    height: 1000px;
-    background-color: rgb(20, 0, 37);
-    font-family: 'Poppins', sans-serif;
-    color: white;
+body {
+  margin: 0;
+  width: 100%;
+  height: 1000px;
+  background-color: rgb(20, 0, 37);
+  font-family: "Poppins", sans-serif;
+  color: white;
 }
-a{
-    text-decoration: none;
-    color: white;
+a {
+  text-decoration: none;
+  color: white;
 }
-a:hover{
-    color: white;
+a:hover {
+  color: white;
 }
-video{
-    position: absolute;
-    left: 0%;
-    /* min-width: 105%; */
-    /* min-height: 100%; */
-    /* transform: translateX(calc((100% - 100vw) / 2)); */
-    z-index: -2;
-    width: 100%;
-    top: 0%;
-    height: 100%;
-    object-fit: cover;
-}
-
-button{
-    border:none;
-}
-.menu .botonc{
-    width: 11%;
-}
-.menu .col-1{
-    padding-left: 7%;
+video {
+  position: absolute;
+  left: 0%;
+  /* min-width: 105%; */
+  /* min-height: 100%; */
+  /* transform: translateX(calc((100% - 100vw) / 2)); */
+  z-index: -2;
+  width: 100%;
+  top: 0%;
+  height: 100%;
+  object-fit: cover;
 }
 
-
-.menu{
-    padding: 10px 10px;
-    /* position: fixed; */
-    background-color: rgba(0, 0, 0, 0.5);
-    /* opacity: 0.8; */
-    width: 100%;
-    font-size: 10px;
-    filter:alpha(opacity=40);
-}
-.menu .logo{
-    width: 15%;
-    /* z-index: 1; */
-}
-.menu button{
-    font-size: 10px;
-    background: #b339ff;
-    border-radius: 26px;
-    padding: 10px 15px;
-    color: white;
-    font-weight: bolder;
-    transition: all 0.3s ease-in-out;
-}
-.menu button:hover{
-    background-color: white;
-    color: black;
-    transition: background-color 0.5s ease 100ms;
+button {
+  border: none;
 }
 
-main h1{
-    font-size: 25px;
-    text-transform: uppercase;
+.menu .col-1 {
+  padding-left: 7%;
 }
-main .intro{
-    padding-top: 20%;
+
+.menu {
+  /* position: fixed; */
+  background-color: rgba(0, 0, 0, 0.5);
+  /* opacity: 0.8; */
+  width: 100%;
+  font-size: 10px;
+  filter: alpha(opacity=40);
 }
-main .linea{
-    width: 70%;
+.menu .logo {
+  /* width: 15%; */
+  /* z-index: 1; */
 }
-main h2{
-    font-weight: bolder;
+.menu button {
+  font-size: 10px;
+  background: #b339ff;
+  border-radius: 26px;
+  padding: 10px 15px;
+  color: white;
+  font-weight: bolder;
+  transition: all 0.3s ease-in-out;
 }
-main h5{
-    padding-top: 2%;
+.menu button:hover {
+  background-color: white;
+  color: black;
+  transition: background-color 0.5s ease 100ms;
 }
-main h6{
-    
-    font-size: 10px;
+
+main h1 {
+  font-size: 25px;
+  text-transform: uppercase;
 }
-main .btn2{
-    color: white;
-    /* background-image: -webkit-linear-gradient(45deg, #57027e 50%, transparent 50%);
+main .intro {
+  padding-top: 20%;
+}
+main .linea {
+  width: 70%;
+}
+main h2 {
+  font-weight: bolder;
+}
+main h5 {
+  padding-top: 2%;
+}
+main h6 {
+  font-size: 10px;
+}
+main .btn2 {
+  color: white;
+  /* background-image: -webkit-linear-gradient(45deg, #57027e 50%, transparent 50%);
     background-image: linear-gradient(45deg, #48044e 50%, transparent 50%); */
-    background: #62079b;
-    /* background: linear-gradient(10deg,red); */
-    background-position: 100%;
-    padding: 10px 25px;
-    border-radius: 22px;
-    font-weight: bolder;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.3s ease-in-out;
+  background: #62079b;
+  /* background: linear-gradient(10deg,red); */
+  background-position: 100%;
+  padding: 10px 25px;
+  border-radius: 22px;
+  font-weight: bolder;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.3s ease-in-out;
 }
-.row{
-    width:100%;
-}
-
-main .btn2:hover{
-    background-color: #ffffff00;
-    border:2px solid #b339ff;
-    transition: all 0.5s ease-in;
-}
-.contaner
-{
-    position:relative;
-    padding: 0;
-    /* margin-right: 0!important; */
-    width: 100%;
-    /* overflow: hidden; */
-    height: 100%;
-    margin: 0;
-    padding-bottom: 7%;
-}
-.contaner::after{
-    content: '';
-    position: absolute;
-    z-index: 0;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, 0.3);
-    box-shadow: inset 0px -99px 87px -35px rgba(20, 0, 37, 0.8);
-}
-.contaner .row{
-    z-index:3;
-}
-.contaner .row .col-12{
-    z-index:3;
+.row {
+  width: 100%;
 }
 
-.section-2{
-    width: 100%;
-    padding-top: 7%;
-    margin: 0;
-    background:url(https://hbo-max-clone.netlify.app/assets/images/background-movies-series.png);
-    background-size:100%;
+main .btn2:hover {
+  background-color: #ffffff00;
+  border: 2px solid #b339ff;
+  transition: all 0.5s ease-in;
 }
-.section-2 li::marker{
-    color:purple;
+.contaner {
+  position: relative;
+  padding: 0;
+  /* margin-right: 0!important; */
+  width: 100%;
+  /* overflow: hidden; */
+  margin: 0;
+  padding-bottom: 7%;
 }
-.section-2 .carta{background: rgb(144,144,144);background: linear-gradient(180deg, rgba(144,144,144,0.2959558823529411) 0%, rgba(255,255,255,0) 100%);border-radius:15px;padding: 36px 0;}
-.section-2 .carta .boton{
-    background-color: #a558de;
-    width: 84%;
-    padding: 12px 10px;
-    border-radius: 25px;
-    margin: 0 auto;
+.contaner::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: inset 0px -99px 87px -35px rgba(20, 0, 37, 0.8);
 }
-.section-2 .carta.central{
-    border:2px solid purple;
-    position:relative;
+
+.section-2 {
+  width: 100%;
+  padding-top: 7%;
+  margin: 0;
+  background: url(https://hbo-max-clone.netlify.app/assets/images/background-movies-series.png);
+  background-size: auto;
+  background-repeat: no-repeat;
+}
+.section-2 li::marker {
+  color: purple;
+}
+.section-2 .carta {
+  background: rgb(144, 144, 144);
+  background: linear-gradient(
+    180deg,
+    rgba(144, 144, 144, 0.2959558823529411) 0%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  border-radius: 15px;
+  padding: 36px 0;
+}
+.section-2 .carta .boton {
+  background-color: #a558de;
+  width: 84%;
+  padding: 12px 10px;
+  border-radius: 25px;
+  margin: 0 auto;
+}
+.section-2 .carta.central {
+  border: 2px solid purple;
+  position: relative;
 }
