@@ -156,3 +156,13 @@ main .btn2:hover {
   border: 2px solid purple;
   position: relative;
 }
+
+.section-3 h4{
+    letter-spacing: 0.1em;
+    background-image: linear-gradient( to left, rgba(116, 9, 121, 1), rgba(185, 8, 246, 1), rgba(91, 28, 230, 1) );
+    width: fit-content;
+}
+.section-3 .img{
+    object-fit: scale-down;
+    height: 100%;
+}
