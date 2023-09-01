@@ -1,5 +1,5 @@
-const observador = new IntersectionObserver((es)=>{
-    es.forEach((e)=>{
+const observador = new IntersectionObserver((entradas)=>{
+    entradas.forEach((e)=>{
         if(e.isIntersecting){
             e.target.classList.add('mostrar');
             console.log("hola")
