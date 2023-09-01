@@ -4,7 +4,7 @@ const observador = new IntersectionObserver((entradas)=>{
             e.target.classList.add('mostrar');
             console.log("hola")
         }else{
-            e.target.classList.remove('mostrar');
+            // e.target.classList.remove('mostrar');
         }
     })
 });
