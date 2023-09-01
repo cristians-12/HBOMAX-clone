@@ -6,10 +6,12 @@ body {
 }
 .hidden{
   opacity: 0;
-  transition: all 1.4s ease-in-out;
+  transition: all 1.2s ease-in-out;
+  filter: blur(5px);
 }
 .mostrar{
   opacity: 1;
+  filter: blur(0px);
 }
 
 a {
