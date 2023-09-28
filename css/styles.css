@@ -1,5 +1,5 @@
 :root {
-  --swiper-theme-color: #a519a5;
+  --swiper-theme-color: #a519a5!important;
 }
 body {
   margin: 0;
