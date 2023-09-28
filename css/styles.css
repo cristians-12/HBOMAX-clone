@@ -7,13 +7,16 @@ body {
 .hidden{
   opacity: 0;
   transition: all 1.2s ease-in-out;
-  filter: blur(3px);
+  filter: blur(5px);
 }
 .mostrar{
   opacity: 1;
   filter: blur(0px);
 }
-
+/* .swiper {
+  width: 600px;
+  height: 300px;
+} */
 a {
   text-decoration: none;
   color: white;
