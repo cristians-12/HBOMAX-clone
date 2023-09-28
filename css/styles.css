@@ -1,3 +1,6 @@
+:root {
+  --swiper-theme-color: #a519a5;
+}
 body {
   margin: 0;
   background-color: rgb(20, 0, 37);
